@@ -41,5 +41,4 @@ jobs:
           - name: Publish to Figma Code Connect
             run: |
               figma connect publish \
-                  --token ${{ secrets.FIGMA_ACCESS_TOKEN }} \
-                  --verbose
+                  --token ${{ secrets.FIGMA_ACCESS_TOKEN }}
