@@ -1,0 +1,79 @@
+{
+  "workbench.colorTheme": "Default Dark+",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.suggest.autoImports": true,
+  "typescript.suggest.includePackageJsonAutoImports": "on",
+  "emmet.includeLanguages": {
+    "typescript": "html",
+    "typescriptreact": "html"
+  },
+  "files.associations": {
+    "*.figma.tsx": "typescriptreact",
+    "*.stories.tsx": "typescriptreact"
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/storybook-static": true,
+    "**/.cache": true,
+    "**/coverage": true,
+    "**/*.log": true
+  },
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/.cache": true,
+    "**/dist": true,
+    "**/build": true
+  },
+  "css.customData": [
+    {
+      "version": 1.1,
+      "properties": [
+        {
+          "name": "--sds-color-*",
+          "description": "SDS color design tokens"
+        },
+        {
+          "name": "--sds-size-space-*", 
+          "description": "SDS spacing design tokens"
+        },
+        {
+          "name": "--sds-typography-*",
+          "description": "SDS typography design tokens"
+        },
+        {
+          "name": "--sds-size-radius-*",
+          "description": "SDS border radius design tokens"
+        },
+        {
+          "name": "--sds-effects-shadows-*",
+          "description": "SDS shadow effect design tokens"
+        }
+      ]
+    }
+  ],
+  "typescript.preferences.includePackageJsonAutoImports": "on",
+  "typescript.suggest.paths": true,
+  "path-intellisense.mappings": {
+    "primitives": "${workspaceRoot}/src/ui/primitives",
+    "compositions": "${workspaceRoot}/src/ui/compositions",
+    "layout": "${workspaceRoot}/src/ui/layout", 
+    "hooks": "${workspaceRoot}/src/ui/hooks",
+    "icons": "${workspaceRoot}/src/ui/icons",
+    "images": "${workspaceRoot}/src/ui/images",
+    "data": "${workspaceRoot}/src/data"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.suggest.insertMode": "replace",
+  "figma.autocomplete": true,
+  "figma.codeConnect": true
+}
