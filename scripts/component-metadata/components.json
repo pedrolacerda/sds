@@ -2341,27 +2341,6 @@
     "constant": "<FIGMA_TABS_TABS>",
     "description": ["Keywords: tabbed"]
   },
-  "b51fb5eab70460324a0b894a11ed9659dcddc0b0": {
-    "id": "56:8830",
-    "page": "Tags",
-    "name": "Tag",
-    "constant": "<FIGMA_TAGS_TAG>",
-    "description": ["Keywords: label, chip, badge"]
-  },
-  "571be82ead6b25335d6235ae57737e9da066153f": {
-    "id": "157:10352",
-    "page": "Tags",
-    "name": "Tag Toggle Group",
-    "constant": "<FIGMA_TAGS_TAG_TOGGLE_GROUP>",
-    "description": ["Keywords: filters"]
-  },
-  "016bbfc41a707581b4de04e3e6a68c89bc0f9e55": {
-    "id": "157:10316",
-    "page": "Tags",
-    "name": "Tag Toggle",
-    "constant": "<FIGMA_TAGS_TAG_TOGGLE>",
-    "description": ["Keywords: filter"]
-  },
   "99294ee8e7299ff01d9463bd2d7d2a09cdd0e11b": {
     "id": "315:32700",
     "page": "Tooltip",

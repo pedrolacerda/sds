@@ -8,7 +8,6 @@ import {
   Image,
   SelectField,
   SelectItem,
-  Tag,
   Text,
   TextHeading,
   TextPrice,
@@ -32,9 +31,6 @@ export function ProductDetails() {
           <Flex direction="column" gap="400" alignSecondary="stretch">
             <Flex alignSecondary="center" gap="200">
               <TextHeading>Ergonomic Office Chair </TextHeading>
-              <Tag variant="secondary" scheme="positive" className="promo-tag">
-                30% Off
-              </Tag>
             </Flex>
             <FlexItem>
               <Flex direction="column" gap="200">

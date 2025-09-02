@@ -7,7 +7,7 @@ import { useProducts, type Product } from "data";
 import { useMediaQuery } from "hooks";
 import { IconChevronDown, IconChevronUp } from "icons";
 import { Flex, FlexItem, Section } from "layout";
-import { Search, TagButton } from "primitives";
+import { Search } from "primitives";
 import { useEffect, useState } from "react";
 
 export function ProductGrid() {
@@ -65,31 +65,6 @@ export function ProductGrid() {
             </FlexItem>
             <FlexItem>
               <Flex gap="200">
-                <TagButton
-                  id="filter-top-rated"
-                  onPress={() => setFilterTopRated((prev) => !prev)}
-                  variant={filterTopRated ? "primary" : "secondary"}
-                >
-                  Top rated
-                </TagButton>
-                <TagButton
-                  id="sort-price"
-                  variant={sortPrice === 0 ? "secondary" : "primary"}
-                  onPress={() => {
-                    setSortPrice((prev) => {
-                      if (prev === 0) return -1;
-                      if (prev === -1) return 1;
-                      return 0;
-                    });
-                  }}
-                >
-                  Price{" "}
-                  {sortPrice === 0 || sortPrice === -1 ? (
-                    <IconChevronDown />
-                  ) : (
-                    <IconChevronUp />
-                  )}
-                </TagButton>
               </Flex>
             </FlexItem>
           </Flex>
