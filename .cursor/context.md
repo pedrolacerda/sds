@@ -56,7 +56,7 @@ Simple Design System (SDS) is a comprehensive React-based design system with Fig
 ### Standard Component Structure
 ```
 ComponentName/
-├── ComponentName.tsx           # Main implementation
+├── ComponentName.tsx          # Main implementation
 ├── componentName.css          # Styles (if needed)
 └── index.ts                   # Re-export (if needed)
 ```
