@@ -10,6 +10,7 @@ export default defineConfig({
     alias: {
       compositions: path.resolve(__dirname, "./src/ui/compositions"),
       data: path.resolve(__dirname, "./src/data"),
+      examples: path.resolve(__dirname, "./src/examples"),
       hooks: path.resolve(__dirname, "./src/ui/hooks"),
       icons: path.resolve(__dirname, "./src/ui/icons"),
       images: path.resolve(__dirname, "./src/ui/images"),

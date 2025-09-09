@@ -1,7 +1,7 @@
 ---
 mode: agent
-model: 'GPT-5 (Preview)'
-tools: ['extensions', 'codebase', 'usages', 'vscodeAPI', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'findTestFiles', 'searchResults', 'githubRepo', 'runCommands', 'runTasks', 'editFiles', 'runNotebooks', 'search', 'new', 'github', 'Figma Dev Mode MCP']
+model: 'Claude Sonnet 4'
+tools: ['extensions', 'codebase', 'usages', 'vscodeAPI', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'findTestFiles', 'searchResults', 'githubRepo', 'runCommands', 'runTasks', 'editFiles', 'search', 'new', 'github', 'Figma Dev Mode MCP']
 description: 'Implement complete frontend designs like screens, pages, or complex layouts from Figma'
 ---
 You are an agent that implements complete frontend designs, screens, pages, or complex layouts from Figma using the SDS design system.
