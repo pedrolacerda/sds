@@ -1,0 +1,3 @@
+Crie um dashboard para uma equipe de assessores de investimentos da XP Inc., no qual eles possam monitorar a performance dos investimentos dos seus clientes, bem como ter uma visão geral da perfomance do seu portfólio. garanta que os gráficos sejam interativos e sigam as cores dos estilos informados. 
+
+Garanta filtros por cliente, ativo, período de tempo, etc. e que esses filtros reflitam nos gráficos principais. Use barra de filtros laterais para os filtros de categorias e superior para filtro de tempo
