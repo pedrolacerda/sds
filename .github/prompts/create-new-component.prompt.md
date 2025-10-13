@@ -1,6 +1,6 @@
 ---
 mode: agent
-model: 'GPT-5 (Preview)'
+model: 'Claude Sonnet 4'
 tools: ['extensions', 'codebase', 'usages', 'vscodeAPI', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'findTestFiles', 'searchResults', 'githubRepo', 'runCommands', 'runTasks', 'editFiles', 'search', 'new', 'github', 'Figma Dev Mode MCP']
 description: 'Create a new reusable component based on the selected Figma design'
 ---
