@@ -1,6 +1,6 @@
 ---
 mode: agent
-model: 'Claude Sonnet 4'
+model: 'Claude Sonnet 4.5'
 tools: ['extensions', 'codebase', 'usages', 'vscodeAPI', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'findTestFiles', 'searchResults', 'githubRepo', 'runCommands', 'runTasks', 'editFiles', 'search', 'new', 'github', 'Figma Dev Mode MCP']
 description: 'Create a new reusable component based on the selected Figma design'
 ---
