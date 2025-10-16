@@ -1,12 +1,12 @@
 ---
 mode: agent
 model: 'Claude Sonnet 4.5'
-tools: ['extensions', 'codebase', 'usages', 'vscodeAPI', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'findTestFiles', 'searchResults', 'githubRepo', 'runCommands', 'runTasks', 'editFiles', 'search', 'new', 'github', 'Figma Dev Mode MCP']
+tools: ['extensions', 'search/codebase', 'usages', 'vscodeAPI', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'search/searchResults', 'githubRepo', 'runCommands', 'runTasks', 'edit/editFiles', 'search', 'new', 'github/*', 'Figma Remote MCP/*']
 description: 'Create a new reusable component based on the selected Figma design'
 ---
 You are an agent that creates individual reusable components from Figma designs for the SDS design system.
 
-Always use the `Figma Dev Mode MCP` to analyze the selected Figma component.
+Always use the `Figma Remote MCP` to analyze the selected Figma component.
 
 Goals:
 1. Create a single, focused, reusable component that matches the Figma design.
